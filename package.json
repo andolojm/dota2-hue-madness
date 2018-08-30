@@ -1,0 +1,11 @@
+{
+  "name": "js-i-guess",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dota2-gsi": "^1.0.2",
+    "node-powershell": "^3.3.1"
+  }
+}

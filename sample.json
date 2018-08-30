@@ -1,0 +1,175 @@
+{
+  "buildings": { "radiant": { "dota_goodguys_tower1_mid": [{}] } },
+  "provider": {
+    "name": "Dota 2",
+    "appid": 570,
+    "version": 47,
+    "timestamp": 1535572994
+  },
+  "map": {
+    "name": "hero_demo_main",
+    "matchid": 0,
+    "game_time": 443,
+    "clock_time": 442,
+    "daytime": false,
+    "nightstalker_night": false,
+    "game_state": "DOTA_GAMERULES_STATE_GAME_IN_PROGRESS",
+    "paused": false,
+    "win_team": "none",
+    "customgamename": "hero_demo",
+    "ward_purchase_cooldown": 0
+  },
+  "player": {
+    "steamid": "76561198017600882",
+    "name": "Fat Jesus",
+    "activity": "playing",
+    "kills": 0,
+    "deaths": 2,
+    "assists": 0,
+    "last_hits": 23,
+    "denies": 0,
+    "kill_streak": 0,
+    "commands_issued": 950,
+    "kill_list": {},
+    "team_name": "radiant",
+    "gold": 99999,
+    "gold_reliable": 99999,
+    "gold_unreliable": 0,
+    "gold_from_hero_kills": 0,
+    "gold_from_creep_kills": 1041,
+    "gold_from_income": 671,
+    "gold_from_shared": 0,
+    "gpm": 18003,
+    "xpm": 383
+  },
+  "hero": {
+    "xpos": -1664,
+    "ypos": -1216,
+    "id": 28,
+    "name": "npc_dota_hero_slardar",
+    "level": 10,
+    "alive": true,
+    "respawn_seconds": 0,
+    "buyback_cost": 8990,
+    "buyback_cooldown": 0,
+    "health": 1505,
+    "max_health": 1505,
+    "health_percent": 100,
+    "mana": 651,
+    "max_mana": 651,
+    "mana_percent": 100,
+    "silenced": false,
+    "stunned": false,
+    "disarmed": false,
+    "magicimmune": false,
+    "hexed": false,
+    "muted": false,
+    "break": false,
+    "smoked": false,
+    "has_debuff": false,
+    "talent_1": true,
+    "talent_2": false,
+    "talent_3": false,
+    "talent_4": false,
+    "talent_5": false,
+    "talent_6": false,
+    "talent_7": false,
+    "talent_8": false
+  },
+  "abilities": {
+    "ability0": {
+      "name": "slardar_sprint",
+      "level": 4,
+      "can_cast": true,
+      "passive": false,
+      "ability_active": true,
+      "cooldown": 0,
+      "ultimate": false
+    },
+    "ability1": {
+      "name": "slardar_slithereen_crush",
+      "level": 3,
+      "can_cast": true,
+      "passive": false,
+      "ability_active": true,
+      "cooldown": 0,
+      "ultimate": false
+    },
+    "ability2": {
+      "name": "slardar_bash",
+      "level": 1,
+      "can_cast": false,
+      "passive": true,
+      "ability_active": true,
+      "cooldown": 0,
+      "ultimate": false
+    },
+    "ability3": {
+      "name": "slardar_amplify_damage",
+      "level": 1,
+      "can_cast": true,
+      "passive": false,
+      "ability_active": true,
+      "cooldown": 0,
+      "ultimate": true
+    }
+  },
+  "items": {
+    "slot0": {
+      "name": "item_tpscroll",
+      "purchaser": 0,
+      "can_cast": true,
+      "cooldown": 0,
+      "passive": false,
+      "charges": 1
+    },
+    "slot1": {
+      "name": "item_manta",
+      "purchaser": 0,
+      "can_cast": true,
+      "cooldown": 0,
+      "passive": false
+    },
+    "slot2": {
+      "name": "item_travel_boots",
+      "purchaser": 0,
+      "can_cast": true,
+      "cooldown": 0,
+      "passive": false
+    },
+    "slot3": {
+      "name": "item_cyclone",
+      "purchaser": 0,
+      "can_cast": true,
+      "cooldown": 0,
+      "passive": false
+    },
+    "slot4": {
+      "name": "item_butterfly",
+      "purchaser": 0,
+      "can_cast": true,
+      "cooldown": 0,
+      "passive": false
+    },
+    "slot5": { "name": "empty" },
+    "slot6": { "name": "empty" },
+    "slot7": { "name": "empty" },
+    "slot8": { "name": "empty" },
+    "stash0": { "name": "empty" },
+    "stash1": { "name": "empty" },
+    "stash2": { "name": "empty" },
+    "stash3": { "name": "empty" },
+    "stash4": { "name": "empty" },
+    "stash5": { "name": "empty" }
+  },
+  "draft": {},
+  "wearables": {
+    "wearable0": 273,
+    "wearable1": 5073,
+    "wearable2": 274,
+    "wearable3": 276,
+    "wearable4": 512
+  },
+  "previously": { "player": { "gpm": 18014 } },
+  "auth": { "token": "hello1234" }
+}
