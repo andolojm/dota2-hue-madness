@@ -12,5 +12,21 @@ module.exports = {
     } else {
       config.hasUlt = true;
     }
+  },
+  watchLastHits: lastHits => {
+    if (lastHits > config.lastHits) {
+      config.lastHits = lastHits;
+      actions.lastHit();
+    }
+  },
+  watchDeath: seconds => {
+    console.log(seconds);
+    if (seconds > 0 && !config.isDead) {
+      config.isDead = true;
+      actions.die();
+    } else if (seconds == 0 && config.isDead) {
+      config.isDead = false;
+      actions.respawn();
+    }
   }
 };
